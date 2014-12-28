@@ -1,8 +1,5 @@
 # About this Repo
 
-This is the Git repo of the official Docker image for [mysql](https://registry.hub.docker.com/_/mysql/). See the
-Hub page for the full readme on how to use the Docker image and for information
-regarding contributing and issues.
+This is a fork of the Git repo of the official Docker image for [mysql](https://registry.hub.docker.com/_/mysql/). 
 
-The full readme is generated over in [docker-library/docs](https://github.com/docker-library/docs),
-specificially in [docker-library/docs/mysql](https://github.com/docker-library/docs/tree/master/mysql).
+The purpose of this repo is to remove the volumes from the official repo, so that the database can be committed as part of an image. This is intended to be used in a development environment scenario where you would want to push the docker image containing the database to a docker registry or the official docker hub.
